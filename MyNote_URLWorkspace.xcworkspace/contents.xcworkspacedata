@@ -4,4 +4,7 @@
    <FileRef
       location = "group:PersistenceLayer/PersistenceLayer.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BusinessLogicLayer/BusinessLogicLayer.xcodeproj">
+   </FileRef>
 </Workspace>

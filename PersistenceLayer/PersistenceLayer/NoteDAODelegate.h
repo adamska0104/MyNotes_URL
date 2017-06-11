@@ -12,6 +12,8 @@
 
 @protocol NoteDAODelegate
 
+@optional
+
 - (void)findAllFinished:(NSMutableArray *)list;
 
 - (void)findAllFailed:(NSError *)error;

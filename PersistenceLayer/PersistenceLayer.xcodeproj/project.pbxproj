@@ -10,11 +10,11 @@
 		4C9254831EEA9BE4002BDAAE /* PersistenceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9254821EEA9BE4002BDAAE /* PersistenceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C92548A1EEA9BE4002BDAAE /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C92547F1EEA9BE4002BDAAE /* PersistenceLayer.framework */; };
 		4C92548F1EEA9BE4002BDAAE /* PersistenceLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92548E1EEA9BE4002BDAAE /* PersistenceLayerTests.m */; };
-		4C92549D1EEA9C28002BDAAE /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92549B1EEA9C28002BDAAE /* Note.h */; };
+		4C92549D1EEA9C28002BDAAE /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92549B1EEA9C28002BDAAE /* Note.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C92549E1EEA9C28002BDAAE /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92549C1EEA9C28002BDAAE /* Note.m */; };
-		4C9254A11EEA9DEF002BDAAE /* NoteDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92549F1EEA9DEF002BDAAE /* NoteDAO.h */; };
+		4C9254A11EEA9DEF002BDAAE /* NoteDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C92549F1EEA9DEF002BDAAE /* NoteDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9254A21EEA9DEF002BDAAE /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9254A01EEA9DEF002BDAAE /* NoteDAO.m */; };
-		4CC8CDF41EED51DA004B1D09 /* NoteDAODelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC8CDF31EED51DA004B1D09 /* NoteDAODelegate.h */; };
+		4CC8CDF41EED51DA004B1D09 /* NoteDAODelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC8CDF31EED51DA004B1D09 /* NoteDAODelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CC969521EEBEBEF0026EDBB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC969451EEBEBEF0026EDBB /* AFHTTPSessionManager.h */; };
 		4CC969531EEBEBEF0026EDBB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC969461EEBEBEF0026EDBB /* AFHTTPSessionManager.m */; };
 		4CC969541EEBEBEF0026EDBB /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC969471EEBEBEF0026EDBB /* AFNetworking.h */; };
@@ -178,13 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC9695D1EEBEBEF0026EDBB /* AFURLSessionManager.h in Headers */,
-				4CC969591EEBEBEF0026EDBB /* AFURLRequestSerialization.h in Headers */,
-				4CC969551EEBEBEF0026EDBB /* AFNetworkReachabilityManager.h in Headers */,
+				4C9254A11EEA9DEF002BDAAE /* NoteDAO.h in Headers */,
 				4C92549D1EEA9C28002BDAAE /* Note.h in Headers */,
 				4CC8CDF41EED51DA004B1D09 /* NoteDAODelegate.h in Headers */,
+				4CC969591EEBEBEF0026EDBB /* AFURLRequestSerialization.h in Headers */,
+				4CC969551EEBEBEF0026EDBB /* AFNetworkReachabilityManager.h in Headers */,
 				4CC969521EEBEBEF0026EDBB /* AFHTTPSessionManager.h in Headers */,
 				4CC969611EEC41B40026EDBB /* NSNumber+Message.h in Headers */,
-				4C9254A11EEA9DEF002BDAAE /* NoteDAO.h in Headers */,
 				4C9254831EEA9BE4002BDAAE /* PersistenceLayer.h in Headers */,
 				4CC969541EEBEBEF0026EDBB /* AFNetworking.h in Headers */,
 				4CC969571EEBEBEF0026EDBB /* AFSecurityPolicy.h in Headers */,
